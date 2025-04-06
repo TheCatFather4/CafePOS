@@ -1,7 +1,7 @@
 # CafePOS
 
 ##About
-An n-tier console application that lets servers from a cafe implement point-of-sale transactions.
+An n-tier console application that lets servers (users) from a cafe implement point-of-sale (POS) transactions.
 
 ## Key Features
 
@@ -19,15 +19,13 @@ An n-tier console application that lets servers from a cafe implement point-of-s
 
 ## Configuration Settings
 
-### 1. Time of Day Settings
-There are several time of day settings that the application can implement:
+### 1. Time of Day
+There are several time of day settings that can be implemented: Breakfast, Lunch, Dinner, Happy Hour, Seasonal, and Real Time.
 
-Breakfast, Lunch, Dinner, Happy Hour, Seasonal, and Real Time.
-
-Most servers will benefit from using the real time setting, but the custom times are available for special purposes.
+Most users will benefit from using the real time setting, but specific meal times are available for special purposes.
 
 ### 2. Training Mode
-The application can be set to a training mode where servers can practice placing orders. A mock database is implemented for this purpose.
+The application can be set to a training mode where users can practice placing orders. A mock database is implemented for this purpose.
 
 ## Notes
 A connection string and a container is required to connect to the database.
