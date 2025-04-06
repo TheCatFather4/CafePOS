@@ -43,3 +43,9 @@ The application can be set to a training mode where users can practice placing o
 A connection string and a container is required to connect to the database.
 
 Database is property of Skill Foundry (skillfoundry.io)
+
+## Photos
+
+![Menu](https://github.com/user-attachments/assets/aafa97de-35c9-4a37-a602-5df91de1da36)
+
+![Report](https://github.com/user-attachments/assets/c4278c5d-8514-4203-87b6-24ebc178d3ba)
