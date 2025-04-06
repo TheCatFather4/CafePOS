@@ -46,6 +46,7 @@ Database is property of Skill Foundry (skillfoundry.io)
 
 ## Photos
 
-![Menu](https://github.com/user-attachments/assets/aafa97de-35c9-4a37-a602-5df91de1da36)
+![Menu](https://github.com/user-attachments/assets/ef601403-2536-4da0-94f7-4563f15a094e)
 
-![Report](https://github.com/user-attachments/assets/c4278c5d-8514-4203-87b6-24ebc178d3ba)
+![Report](https://github.com/user-attachments/assets/591b5305-a3a0-497b-8cd8-86cdab371bc0)
+
