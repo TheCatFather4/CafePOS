@@ -27,6 +27,12 @@ Most users will benefit from using the real time setting, but specific meal time
 ### 2. Training Mode
 The application can be set to a training mode where users can practice placing orders. A mock database is implemented for this purpose.
 
+## Testing
+
+### 1. Application Layer Unit Tests
+
+### 2. Mock Repositories
+
 ## Notes
 A connection string and a container is required to connect to the database.
 
