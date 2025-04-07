@@ -2,7 +2,7 @@
 
 ![Menu](https://github.com/user-attachments/assets/ef601403-2536-4da0-94f7-4563f15a094e)
 
-![Report](https://github.com/user-attachments/assets/591b5305-a3a0-497b-8cd8-86cdab371bc0)
+
 
 ## About
 An n-tier console application that lets cafe servers (employees) implement point-of-sale transactions.
@@ -30,6 +30,8 @@ Users can cancel orders, but only orders that are unpaid (open orders). Orders t
 ### 6. Printing Monthly Sales Reports
 Upon entering a date in short string format, users can access a daily sales report. 
 Totals for each business day is listed, however tax and tip amounts are not included in the report.
+
+![Report](https://github.com/user-attachments/assets/591b5305-a3a0-497b-8cd8-86cdab371bc0)
 
 ## Configuration Settings
 
