@@ -1,8 +1,6 @@
 # CafePOS
 
-![Menu](https://github.com/user-attachments/assets/ef601403-2536-4da0-94f7-4563f15a094e)
-
-
+![Menu2](https://github.com/user-attachments/assets/70a10c63-8fe6-4e12-a6a0-48d193e76ec4)
 
 ## About
 An n-tier console application that lets cafe servers (employees) implement point-of-sale transactions.
@@ -34,7 +32,7 @@ Users can cancel orders, but only orders that are unpaid (open orders). Orders t
 Upon entering a date in short string format, users can access a daily sales report. 
 Totals for each business day is listed, however tax and tip amounts are not included in the report.
 
-![Report](https://github.com/user-attachments/assets/591b5305-a3a0-497b-8cd8-86cdab371bc0)
+![Report](https://github.com/user-attachments/assets/31b4c9ca-2531-4142-8691-b43976421984)
 
 ## Configuration Settings
 
@@ -45,6 +43,8 @@ Most users will benefit from using the real time setting, but specific meal time
 ### 2. Training Mode
 The application can be set to a training mode where users can practice placing orders. 
 A mock database is implemented for this purpose, allowing new servers to practice their point-of-sale skills.
+
+![Menu](https://github.com/user-attachments/assets/37b3bf2d-4f67-433a-aa89-f8f58a707bd2)
 
 ## Interfaces and Implementations
 
