@@ -22,7 +22,7 @@ If the user decides that they would like to add more items, they will be brought
 ### 3. Processing Payments
 After selecting an order from the list, the user will be brought to an order totals screen. The user has the ability to add a tip to the order.
 If added, a new box will appear with the new total, as well as the tip amount that was added. If a customer ordered more than 15 items, there is a mandatory 15% tip added to the order.
-The user can add more to the tip if the customer requests.
+The user can add more to the tip if the customer requests. Next, the user is brought to the payment type screen and can select a preferred method of payment, followed by a confirmation message.
 
 ### 4. Viewing Open Orders
 This feature allows users to see a list of open orders and check what items, if any, are associated with each particular order.
@@ -40,11 +40,11 @@ Totals for each business day is listed, however tax and tip amounts are not incl
 
 ### 1. Time of Day
 There are several time of day settings that can be implemented: Breakfast, Lunch, Dinner, Happy Hour, Seasonal, and Real Time.
-
-Most users will benefit from using the real time setting, but specific meal times are available for special purposes.
+Most users will benefit from using the real time setting, but specific meal times are available for training or special purposes.
 
 ### 2. Training Mode
-The application can be set to a training mode where users can practice placing orders. A mock database is implemented for this purpose.
+The application can be set to a training mode where users can practice placing orders. 
+A mock database is implemented for this purpose, allowing new servers to practice their point-of-sale skills.
 
 ## Interfaces and Implementations
 
