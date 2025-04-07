@@ -20,6 +20,9 @@ The user will be prompted to enter a quantity of the item, and asked if they wou
 If the user decides that they would like to add more items, they will be brought back to the categories menu.
 
 ### 3. Processing Payments
+After selecting an order from the list, the user will be brought to an order totals screen. The user has the ability to add a tip to the order.
+If added, a new box will appear with the new total, as well as the tip amount that was added. If a customer ordered more than 15 items, there is a mandatory 15% tip added to the order.
+The user can add more to the tip if the customer requests.
 
 ### 4. Viewing Open Orders
 This feature allows users to see a list of open orders and check what items, if any, are associated with each particular order.
