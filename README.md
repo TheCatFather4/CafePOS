@@ -4,6 +4,7 @@
 
 ## About
 An n-tier console application that lets cafe servers (employees) implement point-of-sale transactions.
+The 4th Wall Cafe POS queries data from the 4th Wall Cafe Database using Entity Framework.
 
 ## Key Features
 
@@ -46,19 +47,7 @@ A mock database is implemented for this purpose, allowing new servers to practic
 
 ![Menu](https://github.com/user-attachments/assets/37b3bf2d-4f67-433a-aa89-f8f58a707bd2)
 
-## Interfaces and Implementations
-
-### 1. Services
-
-### 2. Repositories
-
-## Testing
-
-### 1. Application Unit Tests
-
-### 2. Mock Repositories
-
 ## Notes
-A connection string and a container is required to connect to the database.
+A connection string and container is required to access the 4th Wall Cafe database. 
 
-Database is property of Skill Foundry (skillfoundry.io)
+4th Wall Cafe Database is property of Skill Foundry (skillfoundry.io).
