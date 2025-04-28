@@ -3,25 +3,35 @@
 ![Menu2](https://github.com/user-attachments/assets/70a10c63-8fe6-4e12-a6a0-48d193e76ec4)
 
 ## About
-An n-tier console application that lets cafe servers (employees) implement point-of-sale transactions.
-The 4th Wall Cafe POS queries data from the 4th Wall Cafe Database using Entity Framework.
+An n-tier console application that allows cafe employees (servers) the ability to establish point-of-sale transactions.
+This application queries data from the 4th Wall Cafe Database (skillfoundry.io) using Entity Framework.
 
 ## Key Features
 
 ### 1. Creating New Orders
-A list of available servers will be displayed on the screen for selection.
-After choosing a valid server ID, the user will be notified that a new order has been created with a unique ID for that order.
+Cafe servers can create new orders for further processing.
+The available servers for work will be displayed on the screen for selection.
+After choosing a valid server ID, the user will be notified that a new order has been created with a unique ID.
+This ID will allow the user to easily locate and add items to the order.
 
 ### 2. Adding Items to Orders
-A list of open orders (unpaid) will be presented on the screen. Upon selection of an order ID, the user will be shown a list
-of categories to choose from. Next, items in that category will be displayed in accord with the current time of day configuration.
-The user will be prompted to enter a quantity of the item, and asked if they would like to add any more items to the order.
+Once an order is created, servers can add as many items as they would like to it.
+A list of open (unpaid) orders will be presented on the screen. 
+Upon selection of an order ID, the user will be shown a list of categories to choose from. 
+Next, items in the category selected will be displayed in accord with the current time of day configuration.
+After this selection, the user will be prompted to enter a quantity of the item, and asked if they would like to add any more items to the order.
 If the user decides that they would like to add more items, they will be brought back to the categories menu.
+At any time, the user can press '0' to quit and go back to the main menu. 
+This sub-feature allows cafe servers to quickly "back out" incase an item or quantity was added by mistake.
 
 ### 3. Processing Payments
-After selecting an order from the list, the user will be brought to an order totals screen. The user has the ability to add a tip to the order.
-If added, a new box will appear with the new total, as well as the tip amount that was added. If a customer ordered more than 15 items, there is a mandatory 15% tip added to the order.
-The user can add more to the tip if the customer requests. Next, the user is brought to the payment type screen and can select a preferred method of payment, followed by a confirmation message.
+When an order has items added to it, the user can then process it for payment when needed. 
+An order will be selected from a menu, and the user will be brought to an order totals screen. 
+Next, the option to add a tip will be available.
+If a tip is added, a new box will appear with both the new total and the tip amount.
+A mandatory tip of 15% is added to orders that have more than 15 items.
+The user can add more to the tip if the customer requests.
+After the total is calculated, the user is brought to the payment type screen and can select a preferred method of payment.
 
 ### 4. Viewing Open Orders
 This feature allows users to see a list of open orders and check what items, if any, are associated with each particular order.
