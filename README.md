@@ -3,8 +3,8 @@
 ![Menu2](https://github.com/user-attachments/assets/70a10c63-8fe6-4e12-a6a0-48d193e76ec4)
 
 ## About
-An n-tier console application that allows cafe employees (servers) the ability to establish point-of-sale transactions.
-This application queries data from the 4th Wall Cafe Database (skillfoundry.io) using Entity Framework.
+An n-tier console application that allows cafe employees (servers) the ability to establish point-of-sale transactions.</br>
+This application queries data from a database using Entity Framework.
 
 ## Key Features
 
@@ -48,16 +48,15 @@ Totals for each business day is listed, however tax and tip amounts are not incl
 ## Configuration Settings
 
 ### 1. Time of Day
-There are several time of day settings that can be implemented: Breakfast, Lunch, Dinner, Happy Hour, Seasonal, and Real Time.
+There are several time of day settings that can be implemented: Breakfast, Lunch, Dinner, Happy Hour, Seasonal, and Real Time.</br>
 Most users will benefit from using the real time setting, but specific meal times are available for training or special purposes.
 
 ### 2. Training Mode
-The application can be set to a training mode where users can practice placing orders. 
+The application can be set to a training mode where users can practice placing orders.</br>
 A mock database is implemented for this purpose, allowing new servers to practice their point-of-sale skills.
 
 ![Menu](https://github.com/user-attachments/assets/37b3bf2d-4f67-433a-aa89-f8f58a707bd2)
 
-## Notes
-A connection string and container is required to access the 4th Wall Cafe database. 
-
-4th Wall Cafe Database is property of Skill Foundry (skillfoundry.io).
+> [!NOTE]
+A connection string and container is required to access the database.</br>
+The Database and Entity Relationship Diagram can be found at (skillfoundry.io).
